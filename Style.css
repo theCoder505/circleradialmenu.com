@@ -1,5 +1,13 @@
 
     /* ----------------------------------------- */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    *:focus {
+        outline: none;
+    }
+    
     .menunavFirst .circle,
     .menunavFirst .circle:before,
     .menunavFirst .circle:after {
@@ -551,8 +559,6 @@
 .menunavFirst label, .menunav label {
     cursor: pointer;
 }
-
-#justcheckcursor{
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.clicky.menuname.safran:focus {
+    outline: none;
 }
