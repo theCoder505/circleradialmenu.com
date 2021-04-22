@@ -1,0 +1,558 @@
+
+    /* ----------------------------------------- */
+    .menunavFirst .circle,
+    .menunavFirst .circle:before,
+    .menunavFirst .circle:after {
+        border-radius: 50%;
+    }
+
+    .menunavFirst .circle .menunavFirst .menuname:hover {
+        color: white;
+        transition: color 0.menunavFirst .5s ease;
+    }
+
+
+    .menunavFirst {
+        display: flex;
+        width: 420px;
+        color: white;
+        font-size: 12px;
+        overflow: hidden;
+        height: 420px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .menunavFirst ul {
+        position: relative;
+        padding: 50%;
+        max-width: 0;
+        max-height: 0;
+        list-style: none;
+    }
+
+    .menunavFirst .menunav li {
+        position: absolute;
+    }
+
+    .menunavFirst .slice {
+        overflow: hidden;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 0;
+        left: 0;
+        transform-origin: 100% 100%;
+    }
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+
+    .menunavFirst .coconut {
+        transform: rotate(28deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .coconut2 {
+        transform: rotate(50deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .coconut3 {
+        transform: rotate(70deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .vanilla {
+        transform: rotate(89.5deg) skewX(30.3deg);
+        border-bottom: 5px solid white;
+    }
+
+    .menunavFirst .orange {
+        transform: rotate(120deg) skewX(31.4deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .orange2 {
+        transform: rotate(130deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .almond {
+        transform: rotate(150deg) skewX(30.2deg);
+        border-bottom: 4px solid white;
+    }
+
+    .menunavFirst .almond2 {
+        transform: rotate(170deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .almond3 {
+        transform: rotate(190deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .grape {
+        transform: rotate(208deg) skewX(31deg);
+        border-bottom: 4px solid white;
+    }
+
+    .menunavFirst .grape2 {
+        transform: rotate(240deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    .menunavFirst .blackberry {
+        transform: rotate(300deg) skewX(31.6deg);
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    .menunavFirst .cherry {
+        transform: rotate(270.2deg) skewX(32.1deg);
+        border-bottom: 1px solid white;
+        border-right: 5px solid white;
+    }
+
+    .menunavFirst .cherry2 {
+        transform: rotate(328deg) skewX(31.2deg);
+        border-bottom: 2px solid white;
+    }
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+
+    .menunavFirst .slice label {
+        display: block;
+        width: 200%;
+        height: 200%;
+        transform: skew(-32deg) rotate(-80deg);
+        text-align: center;
+    }
+
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+
+    /* Cell background colors */
+
+    .menunavFirst .maingreen label {
+        background: #27D2AB;
+    }
+
+    .menunavFirst .blank label {
+        background: #1da5c3;
+    }
+
+    /* ----------------------------------------- */
+
+    .menunavFirst #id1 {
+        display: inline-block;
+        transform: rotate(108deg);
+        line-height: 8;
+        margin-left: 190px;
+    }
+
+    .menunavFirst #id4 {
+        display: inline-block;
+        transform: rotate(-70deg);
+        line-height: 4;
+    }
+
+    .menunavFirst #id2 {
+        display: inline-block;
+        transform: rotate(-13deg);
+        line-height: 3;
+        margin-left: 30px;
+    }
+
+    .menunavFirst #id3 {
+        display: inline-block;
+        transform: rotate(-42deg);
+        line-height: 3;
+        margin-left: 40px;
+    }
+
+
+    .menunavFirst #id5 {
+        display: inline-block;
+        transform: rotate(228deg);
+        line-height: 4;
+        margin-left: 27px;
+    }
+
+    .menunavFirst #id6 {
+        display: inline-block;
+        transform: rotate(140deg);
+        line-height: 9.5;
+        margin-left: 210px;
+    }
+
+    .menunavFirst #id7 {
+        transform: rotate(169deg);
+        display: inline-block;
+        margin-left: 140px;
+        line-height: 7;
+    }
+
+    .menunavFirst #id8 {
+        display: inline-block;
+        transform: rotate(30deg);
+        line-height: 4;
+    }
+
+    .menunavFirst #id9 {
+        display: inline-block;
+        transform: rotate(-90deg);
+        line-height: 4;
+    }
+
+    .menunavFirst #id10 {
+        display: inline-block;
+        transform: rotate(-111deg);
+        line-height: 4;
+    }
+
+    .menunavFirst #id11 {
+        display: inline-block;
+        transform: rotate(8deg);
+        line-height: 3;
+    }
+
+    .menunavFirst #id12 {
+        display: inline-block;
+        transform: rotate(50deg);
+        line-height: 3;
+    }
+
+
+
+    /* ----------------------------------------- */
+/* -------------------------------------- */
+
+
+/* ----------------------------------------- */
+    .circle,
+    .circle:before,
+    .circle:after {
+        border-radius: 50%;
+    }
+
+    .circle .menuname:hover {
+        color: white;
+        transition: color 0.5s ease;
+    }
+
+    .circlebar {
+        border: 5px solid white
+    }
+
+    .menunav {
+        width: 320px;
+        height: 320px;
+        color: white;
+        font-size: 12px;
+        transform: translate(1%, -111.5%);
+        overflow: hidden;
+        border: 5px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .menunav ul {
+        position: relative;
+        padding: 50%;
+        max-width: 0;
+        max-height: 0;
+        list-style: none;
+    }
+
+    .menunav li {
+        position: absolute;
+    }
+
+    .slice {
+        overflow: hidden;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 0;
+        left: 0;
+        transform-origin: 100% 100%;
+    }
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+
+    .coconut {
+        transform: rotate(30deg) skewX(32deg);
+    }
+
+    .vanilla {
+        transform: rotate(90deg) skewX(32deg);
+    }
+
+    .almond {
+        transform: rotate(150deg) skewX(32deg);
+    }
+
+    .grape {
+        transform: rotate(210deg) skewX(32deg);
+    }
+
+    .blackberry {
+        transform: rotate(270deg) skewX(32deg);
+    }
+
+    .cherry {
+        transform: rotate(330.5deg) skewX(32deg);
+    }
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+
+    .slice label {
+        display: block;
+        width: 200%;
+        height: 200%;
+        transform: skew(-32deg) rotate(-65deg);
+        text-align: center;
+    }
+
+
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+    /* ------------------------------------------------- */
+
+
+    /* Cell background colors */
+
+
+    .blue label {
+        background-color: #1da5c3;
+    }
+
+
+
+    .circle label {
+        font-weight: 700;
+        line-height: 4;
+    }
+
+    .middle {
+        z-index: 1;
+        top: 15%;
+        left: 15%;
+        width: 70%;
+        height: 70%;
+        text-align: center;
+        background-image: radial-gradient(#70849e, #6a6d7f);
+    }
+
+    .unsel {
+        z-index: 2;
+        top: 34%;
+        left: 34%;
+        width: 32%;
+        height: 32%;
+        text-align: center;
+        background-color: #FEA730;
+        /* border-top: 4px solid #ffdc53;
+        border-bottom: 4px solid #a37937; */
+    }
+
+    .unsel label {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 25%;
+    }
+
+    .clicky.menuname.safran {
+        font-weight: 100;
+        line-height: 1.5;
+        padding-top: 35%;
+        cursor: pointer;
+        height: 62%;
+        border-radius: 50%;
+        width: 97%;
+    }
+
+
+    .menunav #id1 {
+        transform: rotate(33deg);
+        display: inline-block;
+    }
+
+    .menunav #id7 {
+        display: inline-block;
+        transform: rotate(94deg);
+    }
+
+    .menunav #id2 {
+        display: inline-block;
+        transform: rotate(-27deg);
+        line-height: 3;
+    }
+
+    .menunav #id4 {
+        display: inline-block;
+        transform: rotate(-83deg);
+        line-height: 4;
+    }
+
+    .menunav #id5 {
+        display: inline-block;
+        transform: rotate(213deg);
+        line-height: 4;
+        margin-left: 27px;
+    }
+
+    .menunav #id6 {
+        display: inline-block;
+        transform: rotate(153deg);
+        line-height: 3;
+    }
+/* -------------------------------------- */
+
+
+/* ----------------------------------------- */
+    @media screen and (max-width: 900px) {
+
+        .menunavFirst {
+            display: flex;
+            width: 350px;
+            color: white;
+            font-size: 12px;
+            overflow: hidden;
+            height: 350px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .menunavFirst #id6 {
+            display: inline-block;
+            transform: rotate(140deg);
+            line-height: 8.6;
+            margin-left: 170px;
+            font-size: 11px;
+        }
+
+
+        .menunav {
+            width: 260px;
+            height: 260px;
+            color: white;
+            font-size: 10px;
+            transform: translate(1%, -112.5%);
+            overflow: hidden;
+            border: 5px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+    }
+
+
+    @media screen and (max-width: 500px) {
+
+        .menunavFirst {
+            display: flex;
+            width: 280px;
+            color: white;
+            font-size: 10px;
+            overflow: hidden;
+            height: 280px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .menunav #id4 {
+            display: inline-block;
+            transform: rotate(-85deg);
+            line-height: 0;
+            font-size: 9px;
+        }
+
+        .menunavFirst #id6 {
+            display: inline-block;
+            transform: rotate(140deg);
+            line-height: 8.4;
+            margin-left: 140px;
+            font-size: 10px;
+        }
+
+        .menunavFirst #id1 {
+            display: inline-block;
+            transform: rotate(112deg);
+            line-height: 7;
+            margin-left: 135px;
+            font-size: 11px;
+        }
+
+        .menunav {
+            width: 195px;
+            height: 195px;
+            color: white;
+            font-size: 12px;
+            transform: translate(1%, -115%);
+            overflow: hidden;
+            border: 5px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .circle label {
+            font-weight: 700;
+            line-height: 3;
+            font-size: 9px;
+        }
+
+        .clicky.menuname.safran {
+            font-weight: 100;
+            line-height: 1.5;
+            padding-top: 26%;
+            height: 70%;
+        }
+
+    }
+/* ------------------new-------------------- */
+.unsel.circle{
+    transition: all 0.5s;
+}
+.unsel.circle:hover {
+    box-shadow: 0px 0px 10px 10px #3c3c3c;
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.71), 0 6px 20px 0 rgba(0, 0, 0, 0.46); */
+}
+
+
+#justcheckcursor{
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+
+}
+.menunavFirst label, .menunav label {
+    cursor: pointer;
+}
+
+#justcheckcursor{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
