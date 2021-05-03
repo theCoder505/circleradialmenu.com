@@ -1,11 +1,16 @@
 
+    var sharedHolder = document.querySelector(".sharedHolder");
     var shared = document.querySelector(".SHARED");
     var shared2 = document.querySelector(".SHARED2");
+    var cabinHolder = document.querySelector(".cabinHolder");
     var cabin = document.querySelector(".CABIN");
     var cabin2 = document.querySelector(".CABIN2");
+    var vanilla = document.querySelector(".click");
+    var sedcolorByClick = document.querySelector(".sedcolorByClick");
     var sed = document.querySelector(".SED");
     var sed1 = document.querySelector(".SED1");
     var sed2 = document.querySelector(".SED22");
+    var clt = document.querySelector(".CLT");
     var sep = document.querySelector(".SEP");
     var sep1 = document.querySelector(".SEP1");
     var sep2 = document.querySelector(".SEP2");
@@ -27,10 +32,44 @@
     var sao_coconut = document.querySelector(".menunav .coconut");
     var sed_vanilla = document.querySelector(".menunav .vanilla");
 
+
+
+
+
+    vanilla.addEventListener("click", function(){
+        // alert("vanilla been clicked");
+        sedcolorByClick.style.backgroundColor = sedcolorByClick.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        clt.style.backgroundColor = clt.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
+    });
+
+
+    cabinHolder.addEventListener("click", function(){
+        // alert("vanilla been clicked");
+        cabin.style.backgroundColor = cabin.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        cabin2.style.backgroundColor = cabin2.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
+    });
+
+
+    sharedHolder.addEventListener("click", function(){
+        // alert("vanilla been clicked");
+        shared.style.backgroundColor = shared.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        shared2.style.backgroundColor = shared2.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
+    });
+
+
+
+
+
+
+
+
+
+
+
     shared.addEventListener("click", function () {
 
-        shared.style.backgroundColor = shared.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
-        shared2.style.backgroundColor = shared2.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        // shared.style.backgroundColor = shared.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        // shared2.style.backgroundColor = shared2.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
 
 
     });
@@ -51,8 +90,9 @@
 
     cabin.addEventListener("click", function () {
 
-        cabin.style.backgroundColor = cabin.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
-        cabin2.style.backgroundColor = cabin2.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
+        // alert("cabin clicked");
+        // cabin.style.backgroundColor = cabin.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        // cabin2.style.backgroundColor = cabin2.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
 
 
     });
@@ -70,9 +110,9 @@
 
     sed.addEventListener("click", function () {
 
-        sed.style.backgroundColor = sed.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
+        // sed.style.backgroundColor = sed.style.backgroundColor === rgbcode ? "#1da5c3" : rgbcode;
         sed1.style.backgroundColor = sed1.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
-        sed2.style.backgroundColor = sed2.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
+        // sed2.style.backgroundColor = sed2.style.backgroundColor === rgbcode ? "#27D2AB" : rgbcode;
 
     });
 
